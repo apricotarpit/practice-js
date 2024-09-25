@@ -30,3 +30,6 @@ let Myobj={
 console.log(Myobj);
 console.log(heros);
 
+
+
+
