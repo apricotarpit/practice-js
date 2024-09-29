@@ -59,7 +59,8 @@ console.log(Object.values(tinderuser));
 
 console.log(Object.entries(tinderuser));
 
+const userloggedin = "userloggedin"
 // to check whether this atributes are present or not
-console.log(tinderuser.hasOwnProperty('userloggedin'));
+console.log(tinderuser.hasOwnProperty(userloggedin));
 
 
