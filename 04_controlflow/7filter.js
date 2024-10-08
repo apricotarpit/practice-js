@@ -9,7 +9,7 @@
 
 const nums=[1,2,3,4,5,6,7,8,9,10]
 
-// filter return the
+// filter return the values and it return the value when the conditon is true.
 // const newnums=nums.filter((item)=> {
 //     return item>4
 // })
