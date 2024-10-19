@@ -11,7 +11,7 @@ const user={
 // user.username="sam"
 // user.welcomemsg()
 
-// console.log(this);
+// console.log(this); yha pe this node ko refer kr rha h so it return empty
 
 // function chai(){
         // let username=" hitesh"

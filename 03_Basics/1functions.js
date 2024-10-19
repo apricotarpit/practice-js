@@ -13,7 +13,7 @@ function saymyname(){
     console.log("s");
 }
 
-// saymyname() -> this name is for Reference and ()=> is for execution
+// saymyname -> this name is for Reference and ()=> is for execution
 
 // function add(num1,num2){  //Parameters
 //     console.log(num1+num2);

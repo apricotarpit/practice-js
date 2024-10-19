@@ -4,8 +4,8 @@
 // object literals
 // objet me key values ke pair me input hota h 
 // keys yha pe by default string me hoti h  toh unko acces ke liye unko "" me likha padeg
-
-const mysym=Symbol("key1")
+ 
+const mysym=Symbol("key1")  // symbol is like a unique number
 
 const JSuser={
     name: "hitesh",
