@@ -12,28 +12,35 @@
 
 </body>
 <script>
-    function addlang(langName){
+    function addlang(langname){
         const li=document.createElement('li')
-        li.innerHTML=langName  // `${langName}`
-        document.querySelector(".language").appendChild(li)
+        li.innerHTML=`${langname}`
+        document.querySelector('.language').append(li)
     }
-    addlang("Python")
-    addlang("Ruby")
+    addlang("python") //yha pr iss method se body ke ul me last tk traverse krna padh rha h by this method
     addlang("CPP")
 
-    function addoptimise(langName){
+    function addoptimse(langname){
         const li=document.createElement('li')
-        li.appendChild(document.createTextNode(langName))
-        // CreateTextNode se hum traversing bacha lete h us DOM Tree ke wo direct jake add ho jayega last me add ho jata h 
+        li.appendChild(document.createTextNode(langname))
+
         document.querySelector('.language').appendChild(li)
     }
-    addoptimise("C#")
+    addoptimse("typescript")
+
+    // edit
+    const secondlang=document.querySelector("li:nth-child(2)")
+    // secondlang.innerHTML="MOJO"
+    const newli=document.createElement('li')
+    newli.textContent="MOJO"
+    secondlang.replaceWith(newli)
 
     // Edit
-    const secondlang=document.querySelector("li:nth-child(2)")
-    secondlang.innerHTML="Mojo"
-    const newli=document.createElement('li')
-    newli.textContent =" Mojo"
-    secondlang.replaceWith(newli)
+    const firstlang=document.querySelector("li:first-child")
+    firstlang.outerHTML='<li>typescript</li>'
+
+    // remove
+    const lastlang=document.querySelector("li:last-child")
+    lastlang.remove()
 </script>
 </html>

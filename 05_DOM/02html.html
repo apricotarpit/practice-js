@@ -15,25 +15,26 @@
     </div>
 </body>
 <script>
-    const parent=document.querySelector('.parent')
-    // console.log(parent);
-    // console.log(parent.children); //  gives html collection  
-    // console.log(parent.children[0].innerHTML);
-    
-    // for (let i = 0; i < parent.children.length; i++) {
-    //     console.log(parent.children[i].innerHTML); 
-    // }
-    parent.children[1].style.color="orange"
+   const parent=document.querySelector('.parent')
+   console.log(parent); 
+   console.log(parent.children); //html collection 
+   console.log(parent.children[1]);
+   
+//    for (let i = 0; i < parent.children.length; i++) {
+//         const element = parent.children[i];
+//         console.log(element);
+//    }
+   parent.children[1].style.color="orange"
 
-    // console.log(parent.firstElementChild);
-    // console.log(parent.lastElementChild);
+//    console.log(parent.firstElementChild);
+//    console.log(parent.lastElementChild);
 
-    const dayone=document.querySelector(".day")
-    // console.log(dayone);
-    // console.log(dayone.parentElement);
-    // console.log(dayone.nextElementSibling);
+    const dayone=document.querySelector('.day')
+    console.log(dayone);
+    console.log(dayone.parentElement);
+    console.log(dayone.nextElementSibling);
     
-    console.log("NODES: ",parent.childNodes);
+    console.log("NODES:",parent.childNodes);
     
 </script>
 </html>

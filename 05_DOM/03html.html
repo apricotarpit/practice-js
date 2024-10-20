@@ -12,15 +12,19 @@
     const div=document.createElement('div')
     console.log(div);
     div.className="main"
-    div.id= Math.round(Math.random()*10+1)
-    div.setAttribute('title',"generated title")
-    div.style.padding="12px"
+    div.id=Math.round(Math.random()*10 +1)
+    div.setAttribute("tittle","generated tittle")
     div.style.backgroundColor="green"
-    // div.innerText="Chai aur Code"
-    const aaddtext=document.createTextNode("Chai aur Code")
-    div.appendChild(aaddtext)
+    div.style.padding="12px"
+    // div.innerHTML="chai aur code"
 
-    document.body.appendChild(div)
+     //yha pe ye sare phle value laate h and then add krte h (slow process) 2 round trip ho rhe h 
+    const addtext=document.createTextNode("Chai aur Code")
+    div.appendChild(addtext)
+    // yha pr chize sirf memory me added h page se attach nhi kri h 
+
+    document.body.appendChild(div) //for adding them into the body of the document
+
  </script>
 
 </html>
