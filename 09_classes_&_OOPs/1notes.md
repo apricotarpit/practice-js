@@ -7,7 +7,7 @@
 - toLowerCase
 
 ## Parts of OOP
-Objects Literal
+Objects Literal => literally an object
 
 - Constructor function
 - Prototypes
