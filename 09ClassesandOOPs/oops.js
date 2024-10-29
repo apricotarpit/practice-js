@@ -11,7 +11,7 @@ console.log(user.name);
 console.log(user.getUserDetails());
 
 // Constructor function
-// this new keyword is used to makes new executional context 
+// this "new" keyword is used to makes new executional context 
 // const promiseone= new Promise()
 // const date = new Date()
 
